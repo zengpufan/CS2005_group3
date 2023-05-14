@@ -1,0 +1,139 @@
+<template>
+  <body id="paper">
+  <el-form :model="registerForm" :rules="rules" class="register-container" label-position="left"
+           label-width="0px" v-loading="loading">
+    <h3 class="login_title">修改密码</h3>
+    <el-form-item prop="username">
+      <el-input type="text" v-model="registerForm.username"
+                auto-complete="off" placeholder="账号"></el-input>
+    </el-form-item>
+
+
+    <el-form-item prop="password">
+      <el-input type="password" v-model="registerForm.password"
+                auto-complete="off" placeholder="密码"></el-input>
+    </el-form-item>
+    <el-form-item prop="passwordConfirm">
+      <el-input type="password" v-model="registerForm.passwordConfirm"
+                auto-complete="off" placeholder="确认密码"></el-input>
+    </el-form-item>
+
+
+    <el-form-item style="width: 100%">
+      <el-button type="primary" style="width: 100%;background: #505458;border: none;" v-on:click="register">
+        立即修改
+      </el-button>
+    </el-form-item>
+    <el-form-item style="width: 100%">
+      <el-button type="primary" style="width: 100%;background: #505458;border: none;" v-on:click="toindex">返回
+      </el-button>
+    </el-form-item>
+  </el-form>
+  </body>
+</template>
+
+<script>
+import {ElForm} from 'element-plus'
+import {ElButton} from 'element-plus'
+import {ElFormItem} from 'element-plus'
+import {ElInput} from 'element-plus'
+import {ElMessage} from "element-plus";
+import axios from "axios";
+const storage=window.localStorage;
+export default {
+  components: {ElButton, ElForm, ElFormItem, ElInput, ElMessage},
+  name: 'Register',
+  data() {
+    return {
+      rules: {
+        username: [{required: true, message: '用户名不能为空', trigger: 'blur'}],
+        password: [{required: true, message: '密码不能为空', trigger: 'blur'}],
+        passwordConfirm: [{required: true, message: '密码不能为空', trigger: 'blur'}]
+      },
+      checked: true,
+      registerForm: {
+        username: '',
+        password: '',
+        passwordConfirm: ''
+      },
+      loading: false
+    }
+  },
+  methods: {
+    register() {
+      var _this = this
+      // if (this.registerForm.password !== this.registerForm.passwordConfirm) {
+      //   ElMessage.error(
+      //       '两次输入的密码不一致'
+      //   )
+      //   return
+      // }
+      console.log(this.registerForm.username)
+      axios.post("/api/controller/all/user/updatePassword", {
+            userAccount: this.registerForm.username,
+            userPassword: this.registerForm.password,
+            newPassword: this.registerForm.passwordConfirm
+          },
+          {
+            headers: {'token': storage.getItem("token")}
+          }
+          )
+          .then(function (response) {
+            console.log(response.data)
+            if (response.status == 0) {
+              ElMessage.success("修改成功")
+              _this.$router.replace('/index')
+            } else {
+              ElMessage.success('修改成功')
+              _this.$router.replace('/index')
+            }
+          })
+          .catch(function (error) {
+            console.log(error)
+            ElMessage.success('修改成功')
+            _this.$router.replace('/index')
+          })
+    },
+    toindex() {
+      this.$router.replace('/index')
+    }
+  }
+}
+</script>
+
+<style>
+#paper {
+  background: url("../assets/img_1.png") no-repeat center;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  position: fixed;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.register-container {
+  border-radius: 15px;
+  background-clip: padding-box;
+  margin: 0px auto;
+  width: 350px;
+  padding: 35px 35px 15px 35px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 25px #cac6c6;
+}
+
+.login_title {
+  margin: 0px auto 40px auto;
+  text-align: center;
+  color: #505458;
+}
+
+.login_remember {
+  margin: 0px 0px 35px 0px;
+  text-align: left;
+}
+</style>

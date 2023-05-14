@@ -1,0 +1,1162 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子1",
+          "century": "1458年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 626262,
+            "start": 0,
+            "end": 122725,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子1",
+              "century": "1458年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120895,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子2",
+          "century": "1222年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 582838,
+            "start": 0,
+            "end": 120895,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120895,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子2",
+              "century": "1222年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120934,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子3",
+          "century": "1453年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 553108,
+            "start": 0,
+            "end": 120934,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120934,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子3",
+              "century": "1453年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120811,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子4",
+          "century": "1658年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 551319,
+            "start": 0,
+            "end": 120811,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120811,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子4",
+              "century": "1658年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120811,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子5",
+          "century": "1258年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 544129,
+            "start": 0,
+            "end": 120811,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120811,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子5",
+              "century": "1258年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120888,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子6",
+          "century": "1276年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 536963,
+            "start": 0,
+            "end": 120888,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120888,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子6",
+              "century": "1276年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120969,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子7",
+          "century": "1943年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 452313,
+            "start": 0,
+            "end": 120969,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120969,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子7",
+              "century": "1943年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120805,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子8",
+          "century": "1581年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 433083,
+            "start": 0,
+            "end": 120805,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120805,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子8",
+              "century": "1581年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120931,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子9",
+          "century": "1123年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 287699,
+            "start": 0,
+            "end": 120931,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120931,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子9",
+              "century": "1123年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "大英博物馆"
+        }
+      },
+      "end": {
+        "identity": 120926,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子10",
+          "century": "1111年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 215520,
+            "start": 0,
+            "end": 120926,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120926,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子10",
+              "century": "1111年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120979,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子11",
+          "century": "1189年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 207691,
+            "start": 1,
+            "end": 120979,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120979,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子11",
+              "century": "1189年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 121034,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子12",
+          "century": "1689年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 155265,
+            "start": 1,
+            "end": 121034,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 121034,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子12",
+              "century": "1689年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120880,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子13",
+          "century": "1889年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 98740,
+            "start": 1,
+            "end": 120880,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120880,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子13",
+              "century": "1889年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120913,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子14",
+          "century": "1883年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 96972,
+            "start": 1,
+            "end": 120913,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120913,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子14",
+              "century": "1883年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120954,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子15",
+          "century": "1843年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 87265,
+            "start": 1,
+            "end": 120954,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120954,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子15",
+              "century": "1843年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120850,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子16",
+          "century": "1285年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 22591,
+            "start": 1,
+            "end": 120850,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120850,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子16",
+              "century": "1285年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子17",
+          "century": "1185年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "大英博物馆"
+            }
+          },
+          "relationship": {
+            "identity": 700058,
+            "start": 1,
+            "end": 122725,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子17",
+              "century": "1185年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120810,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子18",
+          "century": "1085年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 336736,
+            "start": 1,
+            "end": 120810,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120810,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子18",
+              "century": "1085年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 120861,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子19",
+          "century": "985年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 5787,
+            "start": 1,
+            "end": 120861,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 120861,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子19",
+              "century": "985年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Museum"
+        ],
+        "properties": {
+          "name": "卢浮宫"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Heritage"
+        ],
+        "properties": {
+          "name": "扇子20",
+          "century": "185年",
+          "description": "很好看"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Museum"
+            ],
+            "properties": {
+              "name": "卢浮宫"
+            }
+          },
+          "relationship": {
+            "identity": 705442,
+            "start": 1,
+            "end": 122725,
+            "type": "type",
+            "properties": {
+              "name": "收藏"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Heritage"
+            ],
+            "properties": {
+              "name": "扇子20",
+              "century": "185年",
+              "description": "很好看"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]
